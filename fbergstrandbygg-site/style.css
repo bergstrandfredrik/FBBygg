@@ -303,8 +303,8 @@ footer {
   justify-content: center;
   padding: 28px;
   background: rgba(17, 17, 17, 0.72);
-  backdrop-filter: blur(3px);
-  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
 }
 .modal {
   width: min(620px, 100%);
