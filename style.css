@@ -6,12 +6,15 @@
   --line: #dddcd6;
   --max: 1180px;
 }
+
 * {
   box-sizing: border-box;
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 body {
   margin: 0;
   background: var(--paper);
@@ -19,10 +22,12 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.55;
 }
+
 a {
   color: inherit;
   text-decoration: none;
 }
+
 .header {
   height: 92px;
   max-width: var(--max);
@@ -33,34 +38,41 @@ a {
   justify-content: space-between;
   border-bottom: 1px solid var(--line);
 }
+
 .logo-link {
   display: flex;
   flex-direction: column;
   line-height: 1;
 }
+
 .mini-logo {
   font-size: 1.25rem;
   font-weight: 900;
   letter-spacing: 0.1em;
 }
-.logo-link > span:last-child {
+
+.logo-link>span:last-child {
   font-size: 0.61rem;
   letter-spacing: 0.08em;
   margin-top: 7px;
 }
+
 nav {
   display: flex;
   gap: 28px;
   align-items: center;
   font-size: 0.87rem;
 }
+
 nav a:hover {
   opacity: 0.55;
 }
+
 .nav-button {
   border: 1px solid var(--ink);
   padding: 9px 15px;
 }
+
 .hero {
   max-width: var(--max);
   margin: auto;
@@ -70,6 +82,7 @@ nav a:hover {
   gap: 70px;
   align-items: center;
 }
+
 .eyebrow {
   text-transform: uppercase;
   letter-spacing: 0.16em;
@@ -77,37 +90,44 @@ nav a:hover {
   font-weight: 700;
   margin: 0 0 18px;
 }
+
 .hero h1 {
   font-size: clamp(3.5rem, 7.5vw, 7rem);
   line-height: 0.94;
   letter-spacing: -0.06em;
   margin: 0;
 }
+
 .hero h1 i {
   font-family: Georgia, serif;
   font-weight: 400;
 }
+
 .lead {
   max-width: 540px;
   color: #50504c;
   font-size: 1.08rem;
   margin: 30px 0;
 }
+
 .buttons {
   display: flex;
   gap: 24px;
   align-items: center;
 }
+
 .button {
   background: var(--ink);
   color: #fff;
   padding: 14px 22px;
   font-weight: 700;
 }
+
 .link {
   font-weight: 700;
   border-bottom: 1px solid var(--ink);
 }
+
 .placeholder {
   background: linear-gradient(135deg, #d9d8d2, #eeece7);
   color: #74746f;
@@ -116,17 +136,21 @@ nav a:hover {
   justify-content: center;
   flex-direction: column;
 }
+
 .hero-photo {
   min-height: 575px;
 }
+
 .placeholder small {
   margin-top: 5px;
 }
+
 .section {
   max-width: var(--max);
   margin: auto;
   padding: 105px 28px;
 }
+
 .intro h2,
 .project-section h2,
 .about h2,
@@ -136,6 +160,7 @@ nav a:hover {
   letter-spacing: -0.05em;
   margin: 0;
 }
+
 .service-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -144,62 +169,76 @@ nav a:hover {
   border: 1px solid var(--line);
   margin-top: 58px;
 }
+
 .service-grid article {
   background: #fff;
   min-height: 245px;
   padding: 30px;
 }
+
 .service-grid span {
   font-size: 0.7rem;
   color: #888;
 }
+
 .service-grid h3 {
   font-size: 1.3rem;
   margin: 42px 0 10px;
 }
+
 .service-grid p,
 .muted {
   color: var(--muted);
 }
+
 .projects {
   background: var(--soft);
 }
+
 .project-section {
   padding-top: 105px;
   padding-bottom: 105px;
 }
+
 .project-grid {
   display: grid;
   grid-template-columns: 1.2fr 0.8fr 0.8fr;
   gap: 16px;
   margin-top: 55px;
 }
+
 .project-photo {
   min-height: 400px;
 }
+
 .project-photo:nth-child(2) {
   min-height: 300px;
 }
+
 .project-photo:nth-child(3) {
   min-height: 460px;
 }
+
 .about {
   display: grid;
   grid-template-columns: 1.15fr 0.85fr;
   gap: 100px;
   align-items: start;
 }
+
 .about-copy {
   font-size: 1.15rem;
   color: #555;
   padding-top: 38px;
 }
+
 .contact {
   border-top: 1px solid var(--line);
   display: grid;
   grid-template-columns: 1fr 0.8fr;
   gap: 100px;
 }
+
 .contact-info {
   padding-top: 38px;
   display: flex;
@@ -207,12 +246,15 @@ nav a:hover {
   gap: 12px;
   font-size: 1.08rem;
 }
+
 .contact-info a {
   font-weight: 700;
 }
+
 .contact-info p {
   color: var(--muted);
 }
+
 footer {
   background: var(--ink);
   color: #fff;
@@ -223,11 +265,13 @@ footer {
   font-size: 0.75rem;
   color: #aaa;
 }
+
 .footer-logo {
   color: #fff;
   font-weight: 900;
   letter-spacing: 0.1em;
 }
+
 .footer-logo small {
   display: block;
   font-weight: 400;
@@ -235,64 +279,80 @@ footer {
   letter-spacing: 0.08em;
   margin-top: 5px;
 }
+
 @media (max-width: 800px) {
   .header {
     height: auto;
     padding: 20px 22px;
   }
+
   .header nav {
     display: none;
   }
+
   .hero {
     grid-template-columns: 1fr;
     padding: 58px 22px 70px;
     gap: 45px;
   }
+
   .hero-photo {
     min-height: 360px;
   }
+
   .section {
     padding: 78px 22px;
   }
+
   .service-grid {
     grid-template-columns: 1fr 1fr;
   }
+
   .project-grid {
     grid-template-columns: 1fr;
   }
+
   .project-photo,
   .project-photo:nth-child(2),
   .project-photo:nth-child(3) {
     min-height: 270px;
   }
+
   .about,
   .contact {
     grid-template-columns: 1fr;
     gap: 20px;
   }
+
   .about-copy,
   .contact-info {
     padding-top: 5px;
   }
+
   footer {
     padding: 35px 22px;
     display: block;
   }
-  footer > div:last-child {
+
+  footer>div:last-child {
     margin-top: 20px;
   }
 }
+
 @media (max-width: 480px) {
   .service-grid {
     grid-template-columns: 1fr;
   }
+
   .service-grid article {
     min-height: 190px;
   }
+
   .service-grid h3 {
     margin-top: 25px;
   }
 }
+
 /* ======================================== DEVELOPMENT MODAL ======================================== */
 .modal-overlay {
   position: fixed;
@@ -306,6 +366,7 @@ footer {
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
 }
+
 .modal {
   width: min(620px, 100%);
   padding: 65px 60px;
@@ -314,19 +375,23 @@ footer {
   text-align: center;
   box-shadow: 0 25px 80px rgba(0, 0, 0, 0.25);
 }
+
 .modal .eyebrow {
   margin-bottom: 20px;
 }
+
 .modal h2 {
   margin: 0;
   font-size: clamp(2.6rem, 6vw, 4.5rem);
   line-height: 0.98;
   letter-spacing: -0.05em;
 }
+
 .modal h2 i {
   font-family: Georgia, serif;
   font-weight: 400;
 }
+
 .modal-text {
   max-width: 430px;
   margin: 30px auto 32px;
@@ -334,12 +399,14 @@ footer {
   font-size: 1rem;
   line-height: 1.6;
 }
+
 .modal-contact {
   display: flex;
   flex-direction: column;
   gap: 8px;
   font-size: 1rem;
 }
+
 .modal-contact a {
   width: fit-content;
   margin: auto;
@@ -347,28 +414,36 @@ footer {
   border-bottom: 1px solid var(--ink);
   transition: opacity 0.2s;
 }
+
 .modal-contact a:hover {
   opacity: 0.55;
-} /* Mobile */
+}
+
+/* Mobile */
 @media (max-width: 600px) {
   .modal-overlay {
     padding: 18px;
   }
+
   .modal {
     padding: 48px 28px;
   }
+
   .modal-logo {
     max-width: 150px;
     max-height: 100px;
     margin-bottom: 32px;
   }
+
   .modal h2 {
     font-size: clamp(2.3rem, 11vw, 3.5rem);
   }
+
   .modal-text {
     margin-top: 24px;
   }
 }
+
 .modal-logo {
   display: block;
   width: 410px;
@@ -393,7 +468,7 @@ footer {
   overflow: hidden;
   border: 1px solid var(--line);
   transition: box-shadow 0.25s ease,
-              transform 0.25s ease;
+    transform 0.25s ease;
 }
 
 .reference-card:hover {
@@ -401,7 +476,7 @@ footer {
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
 }
 
-.reference-card > img {
+.reference-card>img {
   display: block;
   width: 100%;
   aspect-ratio: 4 / 3;
@@ -553,6 +628,7 @@ footer {
     transform: none;
   }
 }
+
 /* ========================================
    STARTSIDA – PROJEKTBILDER
 ======================================== */
@@ -581,7 +657,7 @@ footer {
   gap: 8px;
 }
 
-.hero-gallery > a {
+.hero-gallery>a {
   overflow: hidden;
 }
 
@@ -650,6 +726,7 @@ footer {
     transform: none;
   }
 }
+
 /* ========================================
    FÖRETAGSLOGOTYP
 ======================================== */
@@ -680,6 +757,7 @@ footer {
     width: 145px;
   }
 }
+
 .footer-brand {
   display: block;
   width: 180px;
@@ -688,6 +766,7 @@ footer {
   object-fit: contain;
   filter: brightness(0) invert(1);
 }
+
 /* ========================================
    MOBILMENY
 ======================================== */
@@ -870,14 +949,14 @@ button:focus-visible {
   margin: 0 0 25px;
 }
 
-.service-content > p:not(.eyebrow) {
+.service-content>p:not(.eyebrow) {
   max-width: 780px;
   color: #50504c;
   font-size: 1.08rem;
   line-height: 1.8;
 }
 
-.service-content > p + h2 {
+.service-content>p+h2 {
   margin-top: 55px;
 }
 
@@ -953,7 +1032,7 @@ button:focus-visible {
   margin-bottom: 0;
 }
 
-.service-content > .button-outline {
+.service-content>.button-outline {
   margin: 12px 12px 0 0;
 }
 
@@ -996,6 +1075,7 @@ button:focus-visible {
     padding: 22px;
   }
 }
+
 .service-link {
   display: inline-block;
   margin-top: 12px;
