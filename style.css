@@ -791,3 +791,219 @@ button:focus-visible {
   outline: 2px solid currentColor;
   outline-offset: 4px;
 }
+
+/* ========================================
+   TJÄNSTESIDOR
+======================================== */
+
+.breadcrumbs {
+  max-width: var(--max);
+  margin: auto;
+  padding: 24px 28px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
+.breadcrumbs a:hover {
+  text-decoration: underline;
+}
+
+.service-hero {
+  max-width: var(--max);
+  margin: auto;
+  padding: 60px 28px 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 65px;
+}
+
+.service-hero h1 {
+  font-size: clamp(2.8rem, 5.5vw, 5.5rem);
+  line-height: 1;
+  letter-spacing: -0.055em;
+  margin: 0;
+}
+
+.service-hero .buttons {
+  margin-top: 28px;
+}
+
+.service-hero-image {
+  margin: 0;
+}
+
+.service-hero-image img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+}
+
+.service-hero-image figcaption {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin-top: 10px;
+}
+
+.trust-strip {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: var(--max);
+  margin: auto;
+  padding: 24px 28px;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  text-align: center;
+  gap: 20px;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.service-content h2 {
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  line-height: 1.08;
+  letter-spacing: -0.045em;
+  margin: 0 0 25px;
+}
+
+.service-content > p:not(.eyebrow) {
+  max-width: 780px;
+  color: #50504c;
+  font-size: 1.08rem;
+  line-height: 1.8;
+}
+
+.service-content > p + h2 {
+  margin-top: 55px;
+}
+
+.service-checklist {
+  list-style: none;
+  padding: 0;
+  margin: 30px 0 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px 30px;
+}
+
+.service-checklist li {
+  padding: 15px 0 15px 30px;
+  border-bottom: 1px solid var(--line);
+  position: relative;
+}
+
+.service-checklist li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  font-weight: 700;
+}
+
+.process-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.process-grid article {
+  background: #fff;
+  padding: 28px;
+  border: 1px solid var(--line);
+}
+
+.process-grid span {
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.process-grid h3 {
+  font-size: 1.25rem;
+  margin: 25px 0 12px;
+}
+
+.process-grid p {
+  color: var(--muted);
+}
+
+.faq {
+  max-width: 850px;
+  margin-top: 35px;
+}
+
+.faq details {
+  border-bottom: 1px solid var(--line);
+  padding: 22px 0;
+}
+
+.faq summary {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+
+.faq details p {
+  color: var(--muted);
+  max-width: 750px;
+  line-height: 1.7;
+  margin-bottom: 0;
+}
+
+.service-content > .button-outline {
+  margin: 12px 12px 0 0;
+}
+
+@media (max-width: 800px) {
+  .breadcrumbs {
+    padding: 20px 22px 0;
+  }
+
+  .service-hero {
+    grid-template-columns: 1fr;
+    padding: 40px 22px 60px;
+    gap: 35px;
+  }
+
+  .service-hero-image img {
+    aspect-ratio: 4 / 3;
+  }
+
+  .trust-strip {
+    grid-template-columns: 1fr 1fr;
+    padding: 24px 22px;
+  }
+
+  .process-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .service-checklist {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .process-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .process-grid article {
+    padding: 22px;
+  }
+}
+.service-link {
+  display: inline-block;
+  margin-top: 12px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  border-bottom: 1px solid var(--ink);
+}
+
+.service-link:hover {
+  opacity: 0.6;
+}
