@@ -1086,4 +1086,29 @@ button:focus-visible {
 
 .service-link:hover {
   opacity: 0.6;
+}/* Projektbilder i tre steg */
+
+.before-after--three {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.before-after--three img {
+  height: 420px;
+}
+
+@media (max-width: 800px) {
+  .before-after--three img {
+    height: 320px;
+  }
+}
+
+@media (max-width: 480px) {
+  .before-after--three {
+    grid-template-columns: 1fr;
+  }
+
+  .before-after--three img {
+    height: auto;
+    max-height: 480px;
+  }
 }
