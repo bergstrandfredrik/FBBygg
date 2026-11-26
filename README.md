@@ -57,6 +57,8 @@ FBBygg/
 ├── tjanster/
 │   ├── altaner/
 │   │   └── index.html
+│   ├── fasadrenovering/
+│   │   └── index.html
 │   ├── koksrenovering/
 │   │   └── index.html
 │   ├── renovering/
@@ -82,13 +84,13 @@ FBBygg/
 ### Färdigställda på utvecklingsbranchen
 
 - [x] Takarbeten – `/tjanster/takarbeten/`
+- [x] Fasadrenovering – `/tjanster/fasadrenovering/`
 
 Färdigställda tjänstesidor på seo-2027 publiceras först
 efter kontroll och merge till main.
 
 ### Planerade
 
-- [ ] Fasadrenovering
 - [ ] Fönster & dörrar
 - [ ] Staket & grindar
 - [ ] Tillbyggnader
@@ -100,12 +102,12 @@ efter kontroll och merge till main.
 ### Utvecklingsstatus
 
 - Totalt planerade tjänstesidor: 12
-- Färdigställda tjänstesidor: 4
+- Färdigställda tjänstesidor: 5
 - Publicerade tjänstesidor: 3
-- Färdigställda men ej publicerade: 1
-- Återstående tjänstesidor: 8
+- Färdigställda men ej publicerade: 2
+- Återstående tjänstesidor: 7
 
-Nästa planerade tjänstesida: Fasadrenovering.
+Nästa planerade tjänstesida: Fönster & dörrar.
 
 ## Sökmotoroptimering (SEO)
 
@@ -269,6 +271,45 @@ Domänens DNS hanteras via One.com.
 Filen CNAME ska bevaras för att säkerställa kopplingen
 mellan GitHub Pages och företagets domän.
 
+## Bildpolicy
+
+Webbplatsen använder i första hand egna fotografier från
+verkliga byggprojekt.
+
+### Referensbilder
+
+- Referensbilder ska visa verkliga utförda arbeten.
+- Projektbeskrivningar ska vara korrekta.
+- Före-, under- och efterbilder ska märkas korrekt.
+- Bilder ska optimeras före publicering.
+
+### AI-genererade inspirationsbilder
+
+När egna projektbilder saknas kan AI-genererade
+inspirationsbilder användas på individuella tjänstesidor.
+
+- Inspirationsbilder ska tydligt märkas som AI-genererade.
+- Bilderna får inte presenteras som utförda referensprojekt.
+- Inspirationsbilder ska hållas åtskilda från verkliga referensbilder.
+- Startsidan ska endast visa verkliga projekt i referensgalleriet.
+- Inspirationsbilder kan ersättas med egna projektbilder när sådana finns.
+
+Följande inspirationsbilder används för fasadrenovering:
+
+- `assets/images/fasad-inspiration-01.webp`
+- `assets/images/fasad-inspiration-02.webp`
+
+### Bildoptimering
+
+Nya fotografier och inspirationsbilder optimeras normalt
+med Squoosh enligt följande:
+
+- Format: WebP
+- Bredd: 1200 pixlar
+- Quality: 75
+- Ursprungliga bildproportioner bevaras.
+- Originalbilder sparas separat.
+
 ## Underhåll
 
 Vid framtida uppdateringar:
@@ -286,6 +327,30 @@ Vid framtida uppdateringar:
 - Håll projektdokumentationen uppdaterad.
 
 ## Utvecklingshistorik
+
+### 26 november 2026 – Fasadrenovering
+
+- Ny tjänstesida för Fasadrenovering färdigställd lokalt.
+- Samtliga tolv bekräftade fasadtjänster inkluderade.
+- Innehåll om panelbyte, fasadkonstruktioner och tilläggsisolering.
+- Samordning av målare och plåtslagare inkluderad.
+- Två AI-genererade inspirationsbilder framtagna.
+- Inspirationsbilder optimerade i WebP-format.
+- Tydlig märkning av AI-genererat bildmaterial.
+- Separat inspirationsgalleri istället för referensprojekt.
+- Responsivt inspirationsgalleri med två kolumner.
+- Återanvändning av befintliga CSS-klasser och sidstruktur.
+- Unik metadata och strukturerad data.
+- Internlänkning från startsidan.
+- Utökad internlänkning mellan relevanta tjänstesidor.
+- Sitemap på utvecklingsbranchen utökad till sex webbsidor.
+- Bildpolicy tillagd i projektdokumentationen.
+- Befintligt tjänstekort för Takarbeten kontrollerat och återställt.
+- Git diff kontrollerad utan rapporterade blankstegsfel.
+
+Fasadrenovering och Takarbeten är ännu inte publicerade på main.
+
+Nästa tjänstesida: Fönster & dörrar.
 
 ### 26 november 2026 – Google och Takarbeten
 
@@ -326,8 +391,19 @@ Taksidan är ännu inte publicerad på main.
 - [x] Merge och push av nya hemsidan till main
 - [x] Slutlig verifiering av livehemsidan
 - [x] Tjänstesida för Takarbeten färdigställd lokalt
+- [x] Tjänstesida för Fasadrenovering färdigställd lokalt
+- [x] Responsivt inspirationsgalleri
+- [x] Dokumenterad bildpolicy
 - [ ] Publicera Takarbeten
-- [ ] Resterande åtta tjänstesidor
+- [ ] Publicera Fasadrenovering
+- [ ] Tjänstesida för Fönster & dörrar
+- [ ] Tjänstesida för Staket & grindar
+- [ ] Tjänstesida för Tillbyggnader
+- [ ] Tjänstesida för Betong & grunder
+- [ ] Tjänstesida för Nyproduktion
+- [ ] Tjänstesida för Byggservice
+- [ ] Tjänstesida för Företag & entreprenad
+- [ ] Ersätta inspirationsbilder med egna fasadprojekt när sådana finns
 - [ ] Löpande uppdatering av referensprojekt
 
 ### SEO och marknadsföring

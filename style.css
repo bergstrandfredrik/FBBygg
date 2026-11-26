@@ -1122,3 +1122,14 @@ button:focus-visible {
     margin-top: 40px;
   }
 }
+/* Inspirationsgalleri med två kolumner */
+
+.reference-grid--two {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+@media (max-width: 480px) {
+  .reference-grid--two {
+    grid-template-columns: 1fr;
+  }
+}
