@@ -1112,3 +1112,13 @@ button:focus-visible {
     max-height: 480px;
   }
 }
+/* Avstånd mellan tjänstelista och efterföljande rubrik */
+.service-checklist + h2 {
+  margin-top: 60px;
+}
+
+@media (max-width: 800px) {
+  .service-checklist + h2 {
+    margin-top: 40px;
+  }
+}
