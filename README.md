@@ -63,7 +63,9 @@ FBBygg/
 │   │   └── index.html
 │   ├── renovering/
 │   │   └── index.html
-│   └── takarbeten/
+│   ├── takarbeten/
+│   |   └── index.html
+│   └── fonster-dorrar/
 │       └── index.html
 ├── CNAME
 ├── index.html
@@ -91,7 +93,6 @@ efter kontroll och merge till main.
 
 ### Planerade
 
-- [ ] Fönster & dörrar
 - [ ] Staket & grindar
 - [ ] Tillbyggnader
 - [ ] Betong & grunder
@@ -126,6 +127,15 @@ SEO-arbetet omfattar:
 - Mobilanpassning.
 - Lokal geografisk relevans.
 - Sitemap och robots.txt.
+
+### Kompletterande företagsnamn
+
+- Officiellt företagsnamn: F. Bergstrand Bygg AB.
+- Kompletterande kortform: FB Bygg.
+- Det officiella företagsnamnet ska fortsatt prioriteras.
+- Kortformen ska användas naturligt där det är lämpligt.
+- `alternateName` ska införas konsekvent i strukturerad data.
+- Målet är att företaget även ska hittas vid sökning på FB Bygg.
 
 ### SEO-resurser
 
@@ -370,6 +380,15 @@ Nästa tjänstesida: Fönster & dörrar.
 - Git diff kontrollerad utan rapporterade blankstegsfel.
 
 Taksidan är ännu inte publicerad på main.
+
+### 2026-11-27
+
+- Färdigställt tjänstesidan Fönster & dörrar.
+- Lagt till referensprojekt från Landskrona.
+- Uppdaterat interna länkar och sitemap.xml.
+- Påbörjat stöd för FB Bygg i strukturerad data.
+- Standardiserat klassen `button-outline` för relaterade tjänster.
+- Nästa tjänstesida: Staket & grindar.
 
 ## Fortsatt utveckling
 
