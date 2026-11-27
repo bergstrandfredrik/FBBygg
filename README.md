@@ -443,6 +443,17 @@ Taksidan är ännu inte publicerad på main.
 - [ ] Fortsatt lokal SEO och organisk marknadsföring
 - [ ] Följ upp kundförfrågningar från hemsidan
 
+### Målgrupper
+
+- Privatpersoner.
+- Företag och verksamheter.
+- Fastighetsägare.
+- Bostadsrättsföreningar.
+- Byggföretag med behov av underentreprenörer.
+
+Vid fortsatt utveckling av hemsidan, SEO och marknadsföringen
+ska både privatpersoner och företagskunder beaktas.
+
 ## Kontakt
 
 **F. Bergstrand Bygg AB**
