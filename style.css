@@ -1133,3 +1133,12 @@ button:focus-visible {
     grid-template-columns: 1fr;
   }
 }
+.service-checklist + .buttons {
+  margin-top: 40px;
+}
+
+@media (max-width: 800px) {
+  .service-checklist + .buttons {
+    margin-top: 30px;
+  }
+}
